@@ -1,0 +1,2828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1268</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="17" column="2">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="20" column="16">
+    <widget class="QSpinBox" name="pre_min_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="2">
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="6">
+    <widget class="QLabel" name="label_Number">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>PC Number</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="QLabel" name="label_MIDIMSG1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>MIDI MSG 1</string>
+     </property>
+    </widget>
+   </item>
+   <item row="42" column="21">
+    <widget class="Line" name="line_153">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="18">
+    <widget class="QSpinBox" name="pre_max_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="18">
+    <widget class="QSpinBox" name="pre_max_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="19">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Tap Tempo&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="16">
+    <widget class="QSpinBox" name="pre_min_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="18">
+    <widget class="QSpinBox" name="pre_max_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="8">
+    <widget class="QSpinBox" name="cc_num_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="16">
+    <widget class="QSpinBox" name="pre_min_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="10">
+    <widget class="QSpinBox" name="cc_value_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="12">
+    <widget class="QSpinBox" name="midi_ch_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="10">
+    <widget class="QSpinBox" name="cc_value_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="27" column="2">
+    <widget class="Line" name="line_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="42" column="4">
+    <widget class="Line" name="line_111">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="0">
+    <widget class="QLabel" name="label_MIDIMSG6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>MIDI MSG 6</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="12">
+    <widget class="QSpinBox" name="midi_ch_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="16">
+    <widget class="QSpinBox" name="pre_min_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="6">
+    <widget class="QSpinBox" name="pc_num_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="6">
+    <widget class="QSpinBox" name="pc_num_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="20">
+    <widget class="QLineEdit" name="btn_label_3">
+     <property name="minimumSize">
+      <size>
+       <width>107</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>9</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>no label</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="4">
+    <widget class="QComboBox" name="btn_func_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>11</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Program</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Non-Latching</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Toggle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Momentary</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fractal scene</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll +</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll -</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nothing</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="27" column="21">
+    <widget class="Line" name="line_95">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="2">
+    <widget class="QComboBox" name="btn_action_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Single click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Single click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Long Hold (Tempo)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tap Tempo</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="15">
+    <spacer name="horizontalSpacer_10">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="20" column="0">
+    <widget class="QLabel" name="label_MIDIMSG4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>MIDI MSG 4</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="19">
+    <spacer name="horizontalSpacer_8">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="22" column="10">
+    <widget class="QSpinBox" name="cc_value_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="12">
+    <widget class="QSpinBox" name="midi_ch_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="9">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="20" column="2">
+    <widget class="QComboBox" name="btn_action_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Single click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Single click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Long Hold (Tempo)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tap Tempo</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="20" column="8">
+    <widget class="QSpinBox" name="cc_num_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="20">
+    <widget class="QPushButton" name="tempo_btn">
+     <property name="text">
+      <string>Disabled</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="12">
+    <widget class="QLabel" name="label_MIDICH">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>MIDI CH</string>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="4">
+    <widget class="QComboBox" name="btn_func_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Program</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Non-Latching</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Toggle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Momentary</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fractal scene</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll +</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll -</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nothing</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="16" column="12">
+    <widget class="QSpinBox" name="midi_ch_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="4">
+    <widget class="QComboBox" name="btn_func_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Program</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Non-Latching</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Toggle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Momentary</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fractal scene</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll +</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll -</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nothing</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="14" column="2" alignment="Qt::AlignHCenter">
+    <widget class="QComboBox" name="btn_action_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>4</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>90</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>180</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Single click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Single click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Long Hold (Tempo)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tap Tempo</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="16" column="14">
+    <widget class="QSpinBox" name="scene_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="7">
+    <spacer name="horizontalSpacer_9">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="25" column="20">
+    <widget class="QLineEdit" name="btn_label_6">
+     <property name="minimumSize">
+      <size>
+       <width>107</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>9</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>no label</string>
+     </property>
+    </widget>
+   </item>
+   <item row="42" column="0">
+    <widget class="Line" name="line_109">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="29" column="4">
+    <widget class="Line" name="line_53">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="14">
+    <widget class="QSpinBox" name="scene_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="23" column="2">
+    <spacer name="verticalSpacer_5">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="16" column="0">
+    <widget class="QLabel" name="label_MIDIMSG2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>MIDI MSG 2</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="8">
+    <widget class="QSpinBox" name="cc_num_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="13">
+    <spacer name="horizontalSpacer_5">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="18" column="2">
+    <widget class="QComboBox" name="btn_action_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Single click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Single click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Long Hold (Tempo)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tap Tempo</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="16" column="6">
+    <widget class="QSpinBox" name="pc_num_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="8">
+    <widget class="QSpinBox" name="cc_num_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="18">
+    <widget class="QLabel" name="label_PresetMax">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Preset max</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="4" alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label_Function">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Function</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="20">
+    <widget class="QLineEdit" name="btn_label_1">
+     <property name="minimumSize">
+      <size>
+       <width>107</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>9</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>no label</string>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="6">
+    <widget class="QSpinBox" name="pc_num_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="2">
+    <spacer name="verticalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="11">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="22" column="4">
+    <widget class="QComboBox" name="btn_func_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Program</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Non-Latching</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Toggle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Momentary</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fractal scene</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll +</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll -</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nothing</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="22" column="18">
+    <widget class="QSpinBox" name="pre_max_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="2">
+    <widget class="QComboBox" name="btn_action_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Single click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Single click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Long Hold (Tempo)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tap Tempo</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="20" column="4">
+    <widget class="QComboBox" name="btn_func_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Program</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Non-Latching</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Toggle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Momentary</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fractal scene</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll +</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll -</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nothing</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="27" column="4">
+    <widget class="Line" name="line_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="14">
+    <widget class="QLabel" name="label_Scene">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Scene </string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="20">
+    <widget class="QLineEdit" name="btn_label_2">
+     <property name="minimumSize">
+      <size>
+       <width>107</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>9</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>no label</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="2">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="5">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="25" column="8">
+    <widget class="QSpinBox" name="cc_num_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="14">
+    <widget class="QSpinBox" name="scene_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2" alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label_BTN_ACTION">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Button Action</string>
+     </property>
+    </widget>
+   </item>
+   <item row="42" column="2">
+    <widget class="Line" name="line_110">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="0">
+    <widget class="QLabel" name="label_MIDIMSG3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>MIDI MSG 3</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="2">
+    <widget class="QComboBox" name="btn_action_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Single click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Single click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Double click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Triple click &amp; hold</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Long Hold (Tempo)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tap Tempo</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="20" column="20">
+    <widget class="QLineEdit" name="btn_label_4">
+     <property name="minimumSize">
+      <size>
+       <width>107</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>9</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>no label</string>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="0">
+    <widget class="QLabel" name="label_MIDIMSG5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>MIDI MSG 5</string>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="18">
+    <widget class="QSpinBox" name="pre_max_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="14">
+    <widget class="QSpinBox" name="scene_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="27" column="0">
+    <widget class="Line" name="line">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="16">
+    <widget class="QLabel" name="label_PresetMin">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Preset min</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="8">
+    <widget class="QLabel" name="label_CCValue_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>CC Number</string>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="10">
+    <widget class="QSpinBox" name="cc_value_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="20">
+    <widget class="QLineEdit" name="btn_label_5">
+     <property name="minimumSize">
+      <size>
+       <width>107</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>9</number>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>no label</string>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="12">
+    <widget class="QSpinBox" name="midi_ch_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="6">
+    <widget class="QSpinBox" name="pc_num_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="10">
+    <widget class="QSpinBox" name="cc_value_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="16">
+    <widget class="QSpinBox" name="pre_min_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="29" column="2">
+    <widget class="Line" name="line_25">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="12">
+    <widget class="QSpinBox" name="midi_ch_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>16</number>
+     </property>
+    </widget>
+   </item>
+   <item row="29" column="0">
+    <widget class="Line" name="line_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="15">
+    <spacer name="horizontalSpacer_6">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="10">
+    <widget class="QLabel" name="label_CCValue">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>CC value</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="17">
+    <spacer name="horizontalSpacer_7">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="14" column="14">
+    <widget class="QSpinBox" name="scene_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="8">
+    <widget class="QSpinBox" name="cc_num_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="4">
+    <widget class="QComboBox" name="btn_func_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+selection-color: rgb(127, 127, 127);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Program</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Non-Latching</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Toggle</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Momentary</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fractal scene</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll +</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preset scroll -</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Nothing</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="14" column="16">
+    <widget class="QSpinBox" name="pre_min_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="10">
+    <widget class="QSpinBox" name="cc_value_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="18">
+    <widget class="QSpinBox" name="pre_max_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="29" column="21">
+    <widget class="Line" name="line_93">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="6">
+    <widget class="QSpinBox" name="pc_num_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="14">
+    <widget class="QSpinBox" name="scene_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>37</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="accelerated">
+      <bool>true</bool>
+     </property>
+     <property name="maximum">
+      <number>127</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
